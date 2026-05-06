@@ -6,6 +6,7 @@ import hiltonImage from '@/assets/hilton-port-moresby.jpg';
 import okyAppImage from '@/assets/oky-app-real.jpg';
 import upngCCTVImage from '@/assets/upng-campus-real.jpg';
 import websiteTemplateImage from '@/assets/website-template-project.jpg';
+import lamanaImage from '@/assets/lamana-hotel.jpg';
 
 export const Projects = () => {
   const projects = [
@@ -40,6 +41,14 @@ export const Projects = () => {
       github: "https://github.com",
       live: "https://www.hilton.com/en/hotels/pomsmhi-hilton-port-moresby-hotel-and-residences/",
       image: hiltonImage
+    },
+    {
+      title: "Lamana Hotel IT Systems & Security",
+      description: "Implemented system upgrades and IT policies at Lamana Hotel, including staff training and awareness programs for IT security best practices to strengthen the hotel's overall cybersecurity posture.",
+      technologies: ["System Upgrades", "IT Policies", "Staff Training", "IT Security Awareness", "Cybersecurity Best Practices", "Network Administration"],
+      github: "https://github.com",
+      live: "https://www.lamanahotel.com.pg/",
+      image: lamanaImage
     }
   ];
 
